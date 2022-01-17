@@ -101,13 +101,12 @@ public class RegistrationPage {
         return this;
     }
 
-    public RegistrationPage clickSubmit() {
+    public void clickSubmit() {
         submitClick.click();
 
-        return this;
     }
 
-        public RegistrationPage checkResultsValue(String key, String value){
+    public RegistrationPage checkResultsValue(String key, String value){
         resultsTable.$(byText(key)).parent().shouldHave(text(value));
 
         return this;
