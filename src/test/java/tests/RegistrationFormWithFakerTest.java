@@ -7,7 +7,7 @@ import org.junit.jupiter.api.Test;
 import pages.RegistrationPage;
 import pages.components.CalendarComponent;
 
-public class RegistrationFormTestsWithFaker {
+public class RegistrationFormWithFakerTest {
 
     RegistrationPage registrationPage = new RegistrationPage();
 
